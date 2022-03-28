@@ -1,5 +1,8 @@
 <template>
 	<view>
+		<view class="search-box">
+			<my-serch @click="gotoSearch"></my-serch>
+		</view>
 		<!-- 轮播图 -->
 	
 			<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true">
@@ -93,6 +96,11 @@
 				})
 				this.floorList = res.message
 			},
+			gotoSearch(){
+				uni.navigateTo({
+					url:'/subpkg/search/search'
+				})
+			}
 			
 		}
 	} 
@@ -108,6 +116,11 @@ swiper{
 	}
 }
 
+.search-box{
+	position: sticky;
+	top:0;
+	z-index: 999;
+}
 .nav-list{
 	display: flex;
 	justify-content: space-around;

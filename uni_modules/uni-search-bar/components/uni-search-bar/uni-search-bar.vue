@@ -99,8 +99,8 @@ s<template>
 		},
 		data() {
 			return {
-				show: false,
-				showSync: false,
+				show: true,
+				showSync: true,
 				searchVal: ''
 			}
 		},
@@ -223,10 +223,9 @@ s<template>
 		/* #endif */
 		flex-direction: row;
 		position: relative;
-		padding: 10px;
-		// background-color: #fff;
+		padding: 16rpx;
+		background-color: #c00000;
 	}
-
 	.uni-searchbar__box {
 		/* #ifndef APP-NVUE */
 		display: flex;

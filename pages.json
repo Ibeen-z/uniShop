@@ -29,6 +29,10 @@
                 }
                 ,{
                     "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+                ,{
+                    "path" : "search/search",
                     "style" :                                                                                    
                 {
                     "navigationBarTitleText": "",
@@ -70,7 +74,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "优购",
-		"navigationBarBackgroundColor": "#007AFF",
+		"navigationBarBackgroundColor": "#c00000",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"

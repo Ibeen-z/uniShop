@@ -21,7 +21,7 @@ $http.afterRequest = function(options){
 	uni.hideLoading()
 }
 
-uni.$showMsg = function(titlec='数据请求失败!',duration=1500){
+uni.$showMsg = function(title='数据请求失败!',duration=1500){
 	uni.showToast({
 		title,
 		duration,

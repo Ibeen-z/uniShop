@@ -19,7 +19,8 @@
 		"style": {
 		}
 
-	}],
+	}   
+    ],
 	"subPackages":[
 		{
 			"root":"subpkg",

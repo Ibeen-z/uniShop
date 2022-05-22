@@ -56,7 +56,7 @@
 		computed: {
 			...mapState('m_user',['address']),
 		  // 收货详细地址的计算属性
-		  ...mapGetters('m_user',['addstr','checkedCount'])
+		  ...mapGetters('m_user',['addstr'])
 		}
 	}
 </script>
